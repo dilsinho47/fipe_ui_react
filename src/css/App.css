@@ -1,0 +1,58 @@
+* {
+    font-family: 'Courier New', Courier, monospace
+}
+
+.app {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.favoriteBar {
+  margin-right: 1%;
+}
+
+.searchPage {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1%;
+  height: 500px;
+}
+
+.searchForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+
+.loginPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.login {
+    width: 300px;
+}
+
+.loginButtons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.loginTitle {
+  text-align: center;
+}
+
+.app-elements {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
